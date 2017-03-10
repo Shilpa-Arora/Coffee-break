@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	background:url("../images/bg.jpg") no-repeat center center fixed;
+color: white;
+}
+a{
+text-decoration: none;
+color: white;	
+}
+#hotbeverages  a:hover{
+text-decoration: none;
+color: rgba(226,208,227,0.5);	
+}
+#details a:hover{
+text-decoration: none;
+color: rgba(0,0,0,0.5);	
+}
+
+#details li{
+	background-color: rgba(226,208,227,0.1);
+}
+#details{
+	padding-left: 5%;
+	padding-top: 2%;
+	padding-right: 5%;
+}
+
+
+h1, h4{
+	font-family: 'Open Sans', sans-serif;
+}
+h1
+{ font-size: 2em;}
+h4{
+	font-size: 1em;
+}
+#logoDiv{
+	background-color: rgba(0,0,0,0.2);
+text-align: center;
+padding-top: 0px;
+padding-bottom: 0px;
+border-style: solid;
+ border-width: 1px;
+border-color: rgba(226,208,227,0.2);
+
+}
+#logo{
+	height:200px;
+	width:150px;
+}
+#hotbeverages{ 
+text-align: center;
+}
+.mainImages{
+		max-height:80%;
+	max-width:80%;
+}
+#info{ 
+	text-align: center;
+	padding-left: 30%;
+	padding-right: 30%;
+}
+#information{
+	padding-left: 10%;
+	padding-right: 10%;
+	
+}
+#information h4{
+	line-height:200%;}
+.hidden{
+	display: none;
+}
+#informationImage{
+	padding-right: 5%;
+	padding-bottom: 5%;
+	text-align: center;
+}
+.animation.ng-enter{
+  transition: all linear 0.5s;
+
+}
+

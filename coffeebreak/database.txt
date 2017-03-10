@@ -1,0 +1,447 @@
+﻿/hotbeverages:categories,beverages/
+/**************categories********************/
+[{
+_id : ObjectId("58ab94c9b30dcd18f2ae51d9"),
+name:"coffee",
+image:"coffee.jpg",
+beverages:[ObjectId("58ab9898b30dcd18f2ae51dc"),
+ObjectId("58ab9898b30dcd18f2ae51dd"),
+ObjectId("58ab9898b30dcd18f2ae51de"),
+ObjectId("58ab9898b30dcd18f2ae51df"),
+ObjectId("58ab9898b30dcd18f2ae51e0"),
+ObjectId("58ab9898b30dcd18f2ae51e1"),
+ObjectId("58ab9898b30dcd18f2ae51e2"),
+ObjectId("58ab9898b30dcd18f2ae51e3"),
+ObjectId("58ab9898b30dcd18f2ae51e4"),
+ObjectId("58ab9898b30dcd18f2ae51e5")]
+},
+{
+_id : ObjectId("58ab94c9b30dcd18f2ae51da"),
+name:"tea",
+image:"tea.jpg",
+beverages:[ObjectId("58ab9898b30dcd18f2ae51e6"),
+ObjectId("58ab9898b30dcd18f2ae51e7"),
+ObjectId("58ab9898b30dcd18f2ae51e8"),
+ObjectId("58ab9898b30dcd18f2ae51e9"),
+ObjectId("58ab9898b30dcd18f2ae51ea")]
+}
+]
+/**************beverages*******************/
+[{
+_id:ObjectId("58ab9898b30dcd18f2ae51dc"),
+name:"Espresso",
+image:"1.jpg",
+detail:"Espresso based drinks are coffees made with a cappuccino machine that share three common ingredients: espresso, steamed milk and foam. The main differences between them are the proportions of espresso, steamed milk and foam within the beverage.",
+category:ObjectId("58ab94c9b30dcd18f2ae51d9")
+},
+{
+_id:ObjectId("58ab9898b30dcd18f2ae51dd"),
+name:"Macchiato",
+image:"2.jpg",
+detail:"A macchiato is similar to an espresso but with a dollop of steamed milk and foam to mellow the harsh taste of an espresso.",
+category:ObjectId("58ab94c9b30dcd18f2ae51d9")
+},
+{
+_id:ObjectId("58ab9898b30dcd18f2ae51de"),
+name:"Ristretto",
+image:"3.jpg",
+detail:"A ristretto is an espresso shot that is extracted with the same amount of coffee but half the amount of water. The end result is a more concentrated and darker espresso extraction.",
+category:ObjectId("58ab94c9b30dcd18f2ae51d9")
+},
+{
+_id:ObjectId("58ab9898b30dcd18f2ae51df"),
+name:"Long Black",
+image:"4.jpg",
+detail:"A long black (aka “americano”) is hot water with an espresso shot extracted on top of the hot water.",
+category:ObjectId("58ab94c9b30dcd18f2ae51d9")
+},
+
+{
+_id:ObjectId("58ab9898b30dcd18f2ae51e0"),
+name:"Cafe Latte",
+image:"5.jpg",
+detail:"A café latte, or “latte” for short, is an espresso based drink with steamed milk and micro-foam added to the coffee. This coffee is much sweeter compared to an espresso due to the steamed milk.",
+category:ObjectId("58ab94c9b30dcd18f2ae51d9")
+},
+{
+_id:ObjectId("58ab9898b30dcd18f2ae51e1"),
+name:"Cappuccino",
+image:"6.jpg",
+detail:"A cappuccino is similar to a latte. However the key difference between a latte and cappuccino is that a cappuccino has more foam and chocolate placed on top of the drink. Further a cappuccino is made in a cup rather than a tumbler glass.",
+category:ObjectId("58ab94c9b30dcd18f2ae51d9")
+},
+{
+_id:ObjectId("58ab9898b30dcd18f2ae51e2"),
+name:"Flat White",
+image:"7.jpg",
+detail:"A flat white is a coffee you’ll primarily find in Australia and New Zealand. It is made the same as a cappuccino expect it does not have any foam or chocolate on top.",
+category:ObjectId("58ab94c9b30dcd18f2ae51d9")
+},
+{
+_id:ObjectId("58ab9898b30dcd18f2ae51e3"),
+name:"Piccolo Latte",
+image:"8.jpg",
+detail:"A piccolo latte is a café latte made in an espresso cup. This means it has a very strong but mellowed down espresso taste thanks to the steamed milk and micro foam within it.",
+category:ObjectId("58ab94c9b30dcd18f2ae51d9")
+},
+{
+_id:ObjectId("58ab9898b30dcd18f2ae51e4"),
+name:"Mocha",
+image:"9.jpg",
+detail:"A mocha is a mix between a cappuccino and a hot chocolate. It is made by putting mixing chocolate powder with an espresso shot and then adding steamed milk and micro-foam into the beverage.",
+category:ObjectId("58ab94c9b30dcd18f2ae51d9")
+},
+{
+_id:ObjectId("58ab9898b30dcd18f2ae51e5"),
+name:"Affogato",
+image:"10.jpg",
+detail:"An affogato is a simple dessert coffee that is treat during summer and after dinner. It is made by placing one big scoope of vanilla ice cream within a single or double shot of espresso.",
+category:ObjectId("58ab94c9b30dcd18f2ae51d9")
+},
+{
+_id:ObjectId("58ab9898b30dcd18f2ae51e6"),
+name:"Green Tea",
+image:"11.jpg",
+detail:"Green tea is one of the least oxidized teas. To make green tea, freshly plucked leaves are “fixed” through the application of heat (via steaming or pan-firing) before being rolled and dried. Because these leaves undergo minimal withering and only a little bit of natural oxidation, they retain much of their green color and grassy, vegetal taste, similar to green vegetables.",
+category:ObjectId("58ab94c9b30dcd18f2ae51da")
+},
+{
+_id:ObjectId("58ab9898b30dcd18f2ae51e7"),
+name:"Yellow Tea",
+image:"12.jpg",
+detail:"Yellow tea is processed in much the same way as green tea. However, once “fixed”, the damp leaves are lightly “sweltered” for six to eight hours at a closed container, which turns them yellow. Yellow teas taste similar to black teas though they are milder.",
+category:ObjectId("58ab94c9b30dcd18f2ae51da")
+},
+{
+_id:ObjectId("58ab9898b30dcd18f2ae51e8"),
+name:"White Tea",
+image:"13.jpg",
+detail:"White tea is made from young leaves that are simply wilted and dried. White tea is called so because of the presence of silvery-white pubescent hairs on the surface of young tea buds and also for the light cream-colored liquor. It’s quite floral and tastes incredibly light, and bright",
+category:ObjectId("58ab94c9b30dcd18f2ae51da")
+},
+{
+_id:ObjectId("58ab9898b30dcd18f2ae51e9"),
+name:"Oolong Tea",
+image:"14.jpg",
+detail:"Oolong tea is made from bruised and semi-oxidized tea leaves. Due to partial oxidation, the leaves tend to develop rich flavors but no briskness. Oolongs are made in a variety of styles and shapes, including semi-ball rolled, and strip and leafy styles.",
+category:ObjectId("58ab94c9b30dcd18f2ae51da")
+},
+{
+_id:ObjectId("58ab9898b30dcd18f2ae51ea"),
+name:"Black Tea",
+image:"15.jpg",
+detail:"Well rolled, high fired and fully oxidized, black teas are distinct for their briskness and bold taste. It is the most widely consumed type of tea in the world.",
+category:ObjectId("58ab94c9b30dcd18f2ae51da")
+}
+]
+/*********categories-database output********/
+{
+        "_id" : ObjectId("58ab94c9b30dcd18f2ae51d9"),
+        "name" : "coffee",
+        "image" : "coffee.jpg",
+        "itemsId" : [
+                ObjectId("58ab9898b30dcd18f2ae51dc"),
+                ObjectId("58ab9898b30dcd18f2ae51dd"),
+                ObjectId("58ab9898b30dcd18f2ae51de"),
+                ObjectId("58ab9898b30dcd18f2ae51df"),
+                ObjectId("58ab9898b30dcd18f2ae51e0"),
+                ObjectId("58ab9898b30dcd18f2ae51e1"),
+                ObjectId("58ab9898b30dcd18f2ae51e2"),
+                ObjectId("58ab9898b30dcd18f2ae51e3"),
+                ObjectId("58ab9898b30dcd18f2ae51e4"),
+                ObjectId("58ab9898b30dcd18f2ae51e5")
+        ]
+}
+{
+        "_id" : ObjectId("58ab94c9b30dcd18f2ae51da"),
+        "name" : "tea",
+        "image" : "tea.jpg",
+        "itemsId" : [
+                ObjectId("58ab9898b30dcd18f2ae51e6"),
+                ObjectId("58ab9898b30dcd18f2ae51e7"),
+                ObjectId("58ab9898b30dcd18f2ae51e8"),
+                ObjectId("58ab9898b30dcd18f2ae51e9"),
+                ObjectId("58ab9898b30dcd18f2ae51ea")
+        ]
+}
+/******************************beverages-database output****************/
+{
+        "_id" : ObjectId("58ab9898b30dcd18f2ae51dc"),
+        "name" : "Espresso",
+        "image" : "espresso.png",
+        "detail" : "Espresso based drinks are coffees made with a cappuccino mac
+hine that share three common ingredients: espresso, steamed milk and foam. The m
+ain differences between them are the proportions of espresso, steamed milk and f
+oam within the beverage.",
+        "menulink" : ObjectId("58ab94c9b30dcd18f2ae51d9")
+}
+{
+        "_id" : ObjectId("58ab9898b30dcd18f2ae51dd"),
+        "name" : "Macchiato",
+        "image" : "Macchiato.png",
+        "detail" : "A macchiato is similar to an espresso but with a dollop of s
+teamed milk and foam to mellow the harsh taste of an espresso.",
+        "menulink" : ObjectId("58ab94c9b30dcd18f2ae51d9")
+}
+{
+        "_id" : ObjectId("58ab9898b30dcd18f2ae51de"),
+        "name" : "Ristretto",
+        "image" : "Ristretto.png",
+        "detail" : "A ristretto is an espresso shot that is extracted with the s
+ame amount of coffee but half the amount of water. The end result is a more conc
+entrated and darker espresso extraction.",
+        "menulink" : ObjectId("58ab94c9b30dcd18f2ae51d9")
+}
+{
+        "_id" : ObjectId("58ab9898b30dcd18f2ae51df"),
+        "name" : "Long Black",
+        "image" : "Long Black.png",
+        "detail" : "A long black (aka “americano”) is hot water with an espresso
+ shot extracted on top of the hot water.",
+        "menulink" : ObjectId("58ab94c9b30dcd18f2ae51d9")
+}
+{
+        "_id" : ObjectId("58ab9898b30dcd18f2ae51e0"),
+        "name" : "Cafe Latte",
+        "image" : "Cafe Latte.png",
+        "detail" : "A café latte, or “latte” for short, is an espresso based dri
+nk with steamed milk and micro-foam added to the coffee. This coffee is much swe
+eter compared to an espresso due to the steamed milk.",
+        "menulink" : ObjectId("58ab94c9b30dcd18f2ae51d9")
+}
+{
+        "_id" : ObjectId("58ab9898b30dcd18f2ae51e1"),
+        "name" : "Cappuccino",
+        "image" : "Cappuccino.png",
+        "detail" : "A cappuccino is similar to a latte. However the key differen
+ce between a latte and cappuccino is that a cappuccino has more foam and chocola
+te placed on top of the drink. Further a cappuccino is made in a cup rather than
+ a tumbler glass.",
+        "menulink" : ObjectId("58ab94c9b30dcd18f2ae51d9")
+}
+{
+        "_id" : ObjectId("58ab9898b30dcd18f2ae51e2"),
+        "name" : "Flat White",
+        "image" : "Flat White.png",
+        "detail" : "A flat white is a coffee you’ll primarily find in Australia
+and New Zealand. It is made the same as a cappuccino expect it does not have any
+ foam or chocolate on top.",
+        "menulink" : ObjectId("58ab94c9b30dcd18f2ae51d9")
+}
+{
+        "_id" : ObjectId("58ab9898b30dcd18f2ae51e3"),
+        "name" : "Piccolo Latte",
+        "image" : "Piccolo Latte.png",
+        "detail" : "A piccolo latte is a café latte made in an espresso cup. Thi
+s means it has a very strong but mellowed down espresso taste thanks to the stea
+med milk and micro foam within it.",
+        "menulink" : ObjectId("58ab94c9b30dcd18f2ae51d9")
+}
+{
+        "_id" : ObjectId("58ab9898b30dcd18f2ae51e4"),
+        "name" : "Mocha",
+        "image" : "Mocha.png",
+        "detail" : "A mocha is a mix between a cappuccino and a hot chocolate. I
+t is made by putting mixing chocolate powder with an espresso shot and then addi
+ng steamed milk and micro-foam into the beverage.",
+        "menulink" : ObjectId("58ab94c9b30dcd18f2ae51d9")
+}
+{
+        "_id" : ObjectId("58ab9898b30dcd18f2ae51e5"),
+        "name" : "Affogato",
+        "image" : "Affogato.png",
+        "detail" : "An affogato is a simple dessert coffee that is treat during
+summer and after dinner. It is made by placing one big scoope of vanilla ice cre
+am within a single or double shot of espresso.",
+        "menulink" : ObjectId("58ab94c9b30dcd18f2ae51d9")
+}
+{
+        "_id" : ObjectId("58ab9898b30dcd18f2ae51e6"),
+        "name" : "Green Tea",
+        "image" : "Green Tea.png",
+        "detail" : "Green tea is one of the least oxidized teas. To make green t
+ea, freshly plucked leaves are “fixed” through the application of heat (via stea
+ming or pan-firing) before being rolled and dried. Because these leaves undergo
+minimal withering and only a little bit of natural oxidation, they retain much o
+f their green color and grassy, vegetal taste, similar to green vegetables.",
+        "menulink" : ObjectId("58ab94c9b30dcd18f2ae51da")
+}
+{
+        "_id" : ObjectId("58ab9898b30dcd18f2ae51e7"),
+        "name" : "Yellow Tea",
+        "image" : "Yellow Tea.png",
+        "detail" : "Yellow tea is processed in much the same way as green tea. H
+owever, once “fixed”, the damp leaves are lightly “sweltered” for six to eight h
+ours at a closed container, which turns them yellow. Yellow teas taste similar t
+o black teas though they are milder.",
+        "menulink" : ObjectId("58ab94c9b30dcd18f2ae51da")
+}
+{
+        "_id" : ObjectId("58ab9898b30dcd18f2ae51e8"),
+        "name" : "White Tea",
+        "image" : "White Tea.png",
+        "detail" : "White tea is made from young leaves that are simply wilted a
+nd dried. White tea is called so because of the presence of silvery-white pubesc
+ent hairs on the surface of young tea buds and also for the light cream-colored
+liquor. It’s quite floral and tastes incredibly light, and bright",
+        "menulink" : ObjectId("58ab94c9b30dcd18f2ae51da")
+}
+{
+        "_id" : ObjectId("58ab9898b30dcd18f2ae51e9"),
+        "name" : "Oolong Tea",
+        "image" : "Oolong Tea.png",
+        "detail" : "Oolong tea is made from bruised and semi-oxidized tea leaves
+. Due to partial oxidation, the leaves tend to develop rich flavors but no brisk
+ness. Oolongs are made in a variety of styles and shapes, including semi-ball ro
+lled, and strip and leafy styles.",
+        "menulink" : ObjectId("58ab94c9b30dcd18f2ae51da")
+}
+{
+        "_id" : ObjectId("58ab9898b30dcd18f2ae51ea"),
+        "name" : "Black Tea",
+        "image" : "Black Tea.png",
+        "detail" : "Well rolled, high fired and fully oxidized, black teas are d
+istinct for their briskness and bold taste. It is the most widely consumed type
+of tea in the world.",
+        "menulink" : ObjectId("58ab94c9b30dcd18f2ae51da")
+}
+{
+        "_id" : ObjectId("58ab9898b30dcd18f2ae51dc"),
+        "name" : "Espresso",
+        "image" : "1.jpg",
+        "detail" : "Espresso based drinks are coffees made with a cappuccino mac
+hine that share three common ingredients: espresso, steamed milk and foam. The m
+ain differences between them are the proportions of espresso, steamed milk and f
+oam within the beverage.",
+        "category" : ObjectId("58ab94c9b30dcd18f2ae51d9")
+}
+{
+        "_id" : ObjectId("58ab9898b30dcd18f2ae51dd"),
+        "name" : "Macchiato",
+        "image" : "2.jpg",
+        "detail" : "A macchiato is similar to an espresso but with a dollop of s
+teamed milk and foam to mellow the harsh taste of an espresso.",
+        "category" : ObjectId("58ab94c9b30dcd18f2ae51d9")
+}
+{
+        "_id" : ObjectId("58ab9898b30dcd18f2ae51de"),
+        "name" : "Ristretto",
+        "image" : "3.jpg",
+        "detail" : "A ristretto is an espresso shot that is extracted with the s
+ame amount of coffee but half the amount of water. The end result is a more conc
+entrated and darker espresso extraction.",
+        "category" : ObjectId("58ab94c9b30dcd18f2ae51d9")
+}
+{
+        "_id" : ObjectId("58ab9898b30dcd18f2ae51df"),
+        "name" : "Long Black",
+        "image" : "4.jpg",
+        "detail" : "A long black (aka “americano”) is hot water with an espresso
+ shot extracted on top of the hot water.",
+        "category" : ObjectId("58ab94c9b30dcd18f2ae51d9")
+}
+{
+        "_id" : ObjectId("58ab9898b30dcd18f2ae51e0"),
+        "name" : "Cafe Latte",
+        "image" : "5.jpg",
+        "detail" : "A café latte, or “latte” for short, is an espresso based dri
+nk with steamed milk and micro-foam added to the coffee. This coffee is much swe
+eter compared to an espresso due to the steamed milk.",
+        "category" : ObjectId("58ab94c9b30dcd18f2ae51d9")
+}
+{
+        "_id" : ObjectId("58ab9898b30dcd18f2ae51e1"),
+        "name" : "Cappuccino",
+        "image" : "6.jpg",
+        "detail" : "A cappuccino is similar to a latte. However the key differen
+ce between a latte and cappuccino is that a cappuccino has more foam and chocola
+te placed on top of the drink. Further a cappuccino is made in a cup rather than
+ a tumbler glass.",
+        "category" : ObjectId("58ab94c9b30dcd18f2ae51d9")
+}
+{
+        "_id" : ObjectId("58ab9898b30dcd18f2ae51e2"),
+        "name" : "Flat White",
+        "image" : "7.jpg",
+        "detail" : "A flat white is a coffee you’ll primarily find in Australia
+and New Zealand. It is made the same as a cappuccino expect it does not have any
+ foam or chocolate on top.",
+        "category" : ObjectId("58ab94c9b30dcd18f2ae51d9")
+}
+{
+        "_id" : ObjectId("58ab9898b30dcd18f2ae51e3"),
+        "name" : "Piccolo Latte",
+        "image" : "8.jpg",
+        "detail" : "A piccolo latte is a café latte made in an espresso cup. Thi
+s means it has a very strong but mellowed down espresso taste thanks to the stea
+med milk and micro foam within it.",
+        "category" : ObjectId("58ab94c9b30dcd18f2ae51d9")
+}
+{
+        "_id" : ObjectId("58ab9898b30dcd18f2ae51e4"),
+        "name" : "Mocha",
+        "image" : "9.jpg",
+        "detail" : "A mocha is a mix between a cappuccino and a hot chocolate. I
+t is made by putting mixing chocolate powder with an espresso shot and then addi
+ng steamed milk and micro-foam into the beverage.",
+        "category" : ObjectId("58ab94c9b30dcd18f2ae51d9")
+}
+{
+        "_id" : ObjectId("58ab9898b30dcd18f2ae51e5"),
+        "name" : "Affogato",
+        "image" : "10.jpg",
+        "detail" : "An affogato is a simple dessert coffee that is treat during
+summer and after dinner. It is made by placing one big scoope of vanilla ice cre
+am within a single or double shot of espresso.",
+        "category" : ObjectId("58ab94c9b30dcd18f2ae51d9")
+}
+{
+        "_id" : ObjectId("58ab9898b30dcd18f2ae51e6"),
+        "name" : "Green Tea",
+        "image" : "11.jpg",
+        "detail" : "Green tea is one of the least oxidized teas. To make green t
+ea, freshly plucked leaves are “fixed” through the application of heat (via stea
+ming or pan-firing) before being rolled and dried. Because these leaves undergo
+minimal withering and only a little bit of natural oxidation, they retain much o
+f their green color and grassy, vegetal taste, similar to green vegetables.",
+        "category" : ObjectId("58ab94c9b30dcd18f2ae51da")
+}
+{
+        "_id" : ObjectId("58ab9898b30dcd18f2ae51e7"),
+        "name" : "Yellow Tea",
+        "image" : "12.jpg",
+        "detail" : "Yellow tea is processed in much the same way as green tea. H
+owever, once “fixed”, the damp leaves are lightly “sweltered” for six to eight h
+ours at a closed container, which turns them yellow. Yellow teas taste similar t
+o black teas though they are milder.",
+        "category" : ObjectId("58ab94c9b30dcd18f2ae51da")
+}
+{
+        "_id" : ObjectId("58ab9898b30dcd18f2ae51e8"),
+        "name" : "White Tea",
+        "image" : "13.jpg",
+        "detail" : "White tea is made from young leaves that are simply wilted a
+nd dried. White tea is called so because of the presence of silvery-white pubesc
+ent hairs on the surface of young tea buds and also for the light cream-colored
+liquor. It’s quite floral and tastes incredibly light, and bright",
+        "category" : ObjectId("58ab94c9b30dcd18f2ae51da")
+}
+{
+        "_id" : ObjectId("58ab9898b30dcd18f2ae51e9"),
+        "name" : "Oolong Tea",
+        "image" : "14.jpg",
+        "detail" : "Oolong tea is made from bruised and semi-oxidized tea leaves
+. Due to partial oxidation, the leaves tend to develop rich flavors but no brisk
+ness. Oolongs are made in a variety of styles and shapes, including semi-ball ro
+lled, and strip and leafy styles.",
+        "category" : ObjectId("58ab94c9b30dcd18f2ae51da")
+}
+{
+        "_id" : ObjectId("58ab9898b30dcd18f2ae51ea"),
+        "name" : "Black Tea",
+        "image" : "15.jpg",
+        "detail" : "Well rolled, high fired and fully oxidized, black teas are d
+istinct for their briskness and bold taste. It is the most widely consumed type
+of tea in the world.",
+        "category" : ObjectId("58ab94c9b30dcd18f2ae51da")
+}
