@@ -1,5 +1,5 @@
 # Coffee Break
-Coffee Break allows user to choose between two categories: Coffee and tea. Further it has sub categories to give detail about each product. The long term goal of this project was to create complete database of different cafeteria products with their description.   
+Coffee Break allows user to choose between two categories: Coffee and tea. Further it has sub categories to give detail about each sub category product. The long term goal of this project was to create complete database of different cafeteria products with their description.   
 ## Technologies Used
 The technologies used in this project are as follows.
 1. HTML
