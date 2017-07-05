@@ -13,5 +13,5 @@ The technologies used in this project are as follows.
 ## Why certain technologies
 This project shows uses bootstrap to make the website responsive. Angular javascript with node is used to avoid redundancy of code and for reusabity of code as well. Also, the database of the application is made in Mongodb.
 ]]></content>
-  <tabTrigger>readme</tabTrigger>
+  <tabTrigger>theend</tabTrigger>
 </snippet>
